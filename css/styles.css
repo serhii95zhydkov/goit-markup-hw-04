@@ -166,6 +166,10 @@ address {
     color: var(--secondary-color);
 }
 
+.contact-link-icon {
+    margin-right: 10px;
+}
+
 .main-header {
     border-bottom: 1px solid #ECECEC;
 }
@@ -203,6 +207,7 @@ address {
     margin-right: 50px;
     margin-left: auto;
 }
+
 
 .hero {
     max-width: 1600px;
@@ -250,6 +255,17 @@ address {
 
 .box-principle-item:not(:last-child) {
     margin-right: 30px;
+}
+
+.box-principle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
 }
 
 .box-principle-title {
@@ -321,11 +337,31 @@ address {
 }
 
 .box-team-text {
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
+}
+
+.social-network-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-network-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-network-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
 }
 
 .list-portfolio {
