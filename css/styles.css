@@ -199,9 +199,16 @@ address {
 }
 
 .hero {
+    max-width: 1600px;
     padding: 200px 0;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    background-color: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #C4C4C4;
 }
 
 .hero-title {
@@ -255,7 +262,8 @@ address {
 }
 
 .box-work-title,
-.box-team-title {
+.box-team-title,
+.clients {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
