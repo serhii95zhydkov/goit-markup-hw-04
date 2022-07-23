@@ -166,8 +166,27 @@ address {
     color: var(--secondary-color);
 }
 
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
 .contact-link-icon {
     margin-right: 10px;
+    fill: currentColor;
+}
+
+.clients-link {
+    color: #AFB1B8;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    color: var(--accent-color);
+}
+
+.clients-icon {
+    fill: currentColor;
 }
 
 .main-header {
@@ -356,6 +375,20 @@ address {
 }
 
 .social-network-link {
+    fill: #AFB1B8;
+}
+
+.social-network-link-footer {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-network-link:hover,
+.social-network-link:focus {
+    fill: var(--tertiary-color);
+    background-color: var(--accent-color);
+}
+
+.social-network-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -472,7 +505,12 @@ address {
     margin-left: 70px;
 }
 
+.join-footer-icon {
+    fill: var(--tertiary-color);
+}
+
 .join-footer-text {
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
