@@ -175,6 +175,8 @@ address {
 }
 
 .contact-link {
+    display: flex;
+    align-items: center;
     color: var(--secondary-color);
 }
 
@@ -388,19 +390,9 @@ address {
     justify-content: space-between;
 }
 
-.clients-item:hover,
-.clients-item:focus {
-    border: 1px solid var(--accent-color);
-}
-
 .clients-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
 }
 
 .clients-item:not(:last-child) {
@@ -408,17 +400,20 @@ address {
 }
 
 .clients-link {
-    width: 106px;
-    height: 60px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 
 .clients-link:hover,
 .clients-link:focus {
     color: var(--accent-color);
+    border: 1px solid var(--accent-color)
 }
 
 .clients-icon {
@@ -435,9 +430,13 @@ address {
     flex-basis: calc((100% - 60px) / 3);
 }
 
-.item-portfolio:hover {
+.link-portfolio {
+    display: inline-block;
+}
+
+.link-portfolio:hover,
+.link-portfolio:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    cursor: pointer;
 }
 
 .container-portfolio {
