@@ -402,6 +402,11 @@ address {
     justify-content: space-between;
 }
 
+.clients-item:hover,
+.clients-item:focus {
+    border: 1px solid var(--accent-color);
+}
+
 .clients-item {
     display: flex;
     justify-content: center;
